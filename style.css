@@ -1,0 +1,427 @@
+/*    Font Awesome 5 Free"    */
+
+@font-family {
+    font-family: "Font Awesome 5 Free";
+    src: url("fonts/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.svg") format("svg"),
+         url("fonts/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.eot") format("eot"),
+         url("fonts/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.ttf") format("ttf"),
+         url("fonts/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.woff") format("woff"),
+         url("fonts/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*      Base style        */
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color:  #303030;
+}
+
+h2 {
+    display: inline-block;
+    border-bottom: 3px solid #f47453;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+     text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+section {
+    text-align: center;
+}
+
+.fas {
+    color: #f47453;
+}
+
+.color-secondary {
+    color: #f47453;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.separator {
+    width: 100%;
+    height: 4px;
+    background-color: #f47453;
+}
+
+/*      Main style        */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+}
+
+/*          Header        */
+
+nav {
+    text-align: right;
+    padding: 25px 25px 35px 25px;
+}
+
+.button-menu {
+    background: transparent;
+    border: none;
+    padding: 0;
+    color: #f47453;
+    width: 46px;
+    height: 26px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+.logo h1 {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+/*            Welcome        */
+
+.welcome {
+    min-height: 335px;
+    background: url("img/img-00.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome p {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #d8dbdb;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-bottom: 12px;
+}
+
+/*          About          */
+
+.about-header {
+    background-color: #f47453;
+    color: #d8dbdb;
+    padding: 30px 22px;
+}
+
+
+.about-header p {
+    font-size: 14px;
+}
+
+.about-header a {
+    color: #d8dbdb;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.about-content {
+    padding: 45px 25px 30px 25px;
+    color: #808080;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.about-content h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/*            Advantages          */
+
+.advantages {
+    padding-top: 50px;
+    color: #808080;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.advantages-content {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+}
+
+.advantages-content li {
+    margin-bottom: 35px;
+}
+
+.advantages-content li:last-child {
+    margin-bottom: 50px;
+}
+
+.advantages-content li h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.advantages-content li p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/*            Gallery        */
+
+.gallery {
+    padding: 80px 25px;
+    color: #808080;
+    font-size: 18px;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery > p {
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.gallery-list {
+    width: 70%;
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 80px;
+    font-size: 0;
+}
+
+.gallery-list li {
+    margin-bottom: 70px;
+}
+
+.gallery-list li img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-list li figcaption {
+    border: #E0E0E0;
+    background-color: #F0F0F0	;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.gallery-list li h4 {
+    font-size: 24px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.gallery-list li p {
+    margin-top: 5px;
+}
+
+/*             Talk        */
+
+.talk {
+    background-color: #7a7a7a;
+    color: #ffffff;
+    padding: 80px 25px;
+}
+
+.talk h2 {
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-size: 60px;
+    text-transform: capitalize;
+    border-bottom: none;
+    font-weight: 600;
+}
+
+.talk p {
+    font-size: 24px;
+}
+
+/*           ContactUs        */
+
+.contactUs {
+    padding: 80px 25px;
+    color: #808080;
+    font-size: 18px;
+}
+
+.contactUs h2 {
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.contactUs p {
+    line-height: 1.5;
+}
+
+/*          Map             */
+
+.map img {
+    width: 100%;
+    height: auto;
+}
+
+/*          ContactDetails       */
+
+.contactDetails {
+    padding: 80px 25px;
+    color: #808080;
+    font-size: 30px;
+}
+
+.contactDetails h2 {
+    text-transform: capitalize;
+    margin-bottom: 80px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.contactDetails-list {
+    list-style: none;
+    text-align: left;
+}
+
+.contactDetails-list li {
+    margin-bottom: 50px;
+    position: relative;
+    padding-left: 20%;
+    display: inline-block;
+}
+
+.contactDetails-list li a {
+    color: #808080;
+    line-height: 1.2;
+}
+
+.contactDetails-list .icon::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    color: #f47453;
+}
+
+.contactDetails-list .tel::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f879";
+}
+
+.contactDetails-list .mail::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+}
+
+.contactDetails-list .map::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f041";
+}
+
+/*            ContactForm       */
+
+.contactForm {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contactForm input, .contactForm textarea {
+    background: #F0F0F0;
+    border: 1px solid #A0A0A0;
+    width: 100%;
+    padding: 10px;
+    color: #A0A0A0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+}
+
+.contactForm input::placeholder, .contactForm textarea::placeholder {
+    color: #A0A0A0;
+}
+
+.contactForm textarea {
+    resize: none;
+}
+
+.contactForm input[type="submit"] {
+    background: #f47453;
+    color: #ffffff;
+    width: 70%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*          footer     */
+
+footer {
+    padding-bottom: 96px;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #f47453;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
