@@ -4,9 +4,9 @@ services:
     build:
       args:
         - DEVELOPER_MODE=1 # needed for the build stage
-    user: docker:docker
-    sysctls:
-      - net.ipv4.ip_unprivileged_port_start=0
+    #user: docker:docker
+    #sysctls:
+     # - net.ipv4.ip_unprivileged_port_start=0
     labels:
       - traefik.http.frontend.rule=Host:sasha-khandus-php.local
       - traefik.https.frontend.rule=Host:sasha-khandus-php.local
