@@ -8,13 +8,13 @@ module.exports = function(grunt) {
                     optimization: 2,
                     strictImports: true,
                     sourceMap: true,
-                    sourceMapFilename: 'pub/css/style.css.map', // where file is generated and located
-                    sourceMapURL: 'style.css.map', // the complete url and filename put in the compiled css file
+                    sourceMapFilename: 'pub/css/styles.css.map', // where file is generated and located
+                    sourceMapURL: 'styles.css.map', // the complete url and filename put in the compiled css file
                     sourceMapBasepath: 'pub', // Sets sourcemap base path, defaults to current working directory.
                     sourceMapRootpath: '/', // adds this path onto the sourcemap filename and less file paths
                 },
                 files: {
-                    "pub/css/style.css": "assets/dist/less/style.less"
+                    "pub/css/styles.css": "assets/dist/less/styles.less"
                 }
             },
             prod: {
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
                     strictImports: true
                 },
                 files: {
-                    "assets/dist/css/style.css": "assets/dist/less/style.less"
+                    "assets/dist/css/styles.css": "assets/dist/less/styles.less"
                 }
             }
         },
@@ -40,8 +40,8 @@ module.exports = function(grunt) {
                         })
                     ]
                 },
-                src: 'pub/css/style.css',
-                dest: 'pub/css/style.min.css'
+                src: 'pub/css/styles.css',
+                dest: 'pub/css/styles.min.css'
             },
 
             prod: {
@@ -53,8 +53,8 @@ module.exports = function(grunt) {
                         require('cssnano')()
                     ]
                 },
-                src: 'assets/dist/css/style.css',
-                dest: 'pub/css/style.min.css'
+                src: 'assets/dist/css/styles.css',
+                dest: 'pub/css/styles.min.css'
             }
         },
 
